@@ -1,4 +1,7 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+
+import '../homescreen/service_list.dart';
 
 class AuthService {
   static final FirebaseAuth _firebaseAuth = FirebaseAuth.instance;
@@ -58,5 +61,27 @@ class AuthService {
   static Future<bool> isLoggedIn() async {
     var user = _firebaseAuth.currentUser;
     return user != null;
+  }
+  Future<void> saveUserData({
+    required String name,
+    required String phoneNumber,
+    required DateTime selectedDate,
+    required List<String> selectedTimeslots,
+
+
+}) async {
+    CollectionReference users = FirebaseFirestore.instance.collection('users');
+
+    try{
+      await FirebaseFirestore.instance.collection('users').add({
+        'name': name,
+        'phoneNumber': phoneNumber,
+        'selectedDate': selectedDate,
+        'selectedTimeslots': selectedTimeslots,
+
+      });
+    } catch (e) {
+      print("Error saving user data: $e");
+    }
   }
 }

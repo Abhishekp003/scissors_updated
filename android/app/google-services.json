@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "757222958410",
-    "project_id": "saloonprojet-4b216",
-    "storage_bucket": "saloonprojet-4b216.appspot.com"
+    "project_number": "444998426493",
+    "project_id": "salon-e320f",
+    "storage_bucket": "salon-e320f.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:757222958410:android:a78ac4879e289b38744db3",
+        "mobilesdk_app_id": "1:444998426493:android:46edcdf6aa2b7438e03614",
         "android_client_info": {
           "package_name": "com.example.scissors_project"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCONl2Fr2Dq6EUZpcUFzB5nQKNo_2bxayE"
+          "current_key": "AIzaSyCFDmIcbfsN3KZm93fru0OlSbc5QgUBUOI"
         }
       ],
       "services": {

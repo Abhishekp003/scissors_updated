@@ -44,38 +44,38 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyC73yH176_UGNTzXgJKRiVHDTvE_GEWAtM',
-    appId: '1:757222958410:web:62390eae4de62a28744db3',
-    messagingSenderId: '757222958410',
-    projectId: 'saloonprojet-4b216',
-    authDomain: 'saloonprojet-4b216.firebaseapp.com',
-    storageBucket: 'saloonprojet-4b216.appspot.com',
-    measurementId: 'G-RZ5JKRM2HW',
+    apiKey: 'AIzaSyBoPxFmmOztJuJi4-avAIIZRQYkMlcszdk',
+    appId: '1:444998426493:web:a4ed5933cf9df5dae03614',
+    messagingSenderId: '444998426493',
+    projectId: 'salon-e320f',
+    authDomain: 'salon-e320f.firebaseapp.com',
+    storageBucket: 'salon-e320f.appspot.com',
+    measurementId: 'G-STZ0YM05QK',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCONl2Fr2Dq6EUZpcUFzB5nQKNo_2bxayE',
-    appId: '1:757222958410:android:a78ac4879e289b38744db3',
-    messagingSenderId: '757222958410',
-    projectId: 'saloonprojet-4b216',
-    storageBucket: 'saloonprojet-4b216.appspot.com',
+    apiKey: 'AIzaSyCFDmIcbfsN3KZm93fru0OlSbc5QgUBUOI',
+    appId: '1:444998426493:android:46edcdf6aa2b7438e03614',
+    messagingSenderId: '444998426493',
+    projectId: 'salon-e320f',
+    storageBucket: 'salon-e320f.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyC9pYuiPT9LjVL55Noe0MuAPikIcQEvU_s',
-    appId: '1:757222958410:ios:f0ef85bd968c0941744db3',
-    messagingSenderId: '757222958410',
-    projectId: 'saloonprojet-4b216',
-    storageBucket: 'saloonprojet-4b216.appspot.com',
+    apiKey: 'AIzaSyBFTHiIYTtcPKtqzOHJwxZUfOJf4SeQxBI',
+    appId: '1:444998426493:ios:f4ad1a30a8e72ab0e03614',
+    messagingSenderId: '444998426493',
+    projectId: 'salon-e320f',
+    storageBucket: 'salon-e320f.appspot.com',
     iosBundleId: 'com.example.scissorsProject',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyC9pYuiPT9LjVL55Noe0MuAPikIcQEvU_s',
-    appId: '1:757222958410:ios:bf73a4bb6d6c0956744db3',
-    messagingSenderId: '757222958410',
-    projectId: 'saloonprojet-4b216',
-    storageBucket: 'saloonprojet-4b216.appspot.com',
+    apiKey: 'AIzaSyBFTHiIYTtcPKtqzOHJwxZUfOJf4SeQxBI',
+    appId: '1:444998426493:ios:fb274cd28c24ccede03614',
+    messagingSenderId: '444998426493',
+    projectId: 'salon-e320f',
+    storageBucket: 'salon-e320f.appspot.com',
     iosBundleId: 'com.example.scissorsProject.RunnerTests',
   );
 }
